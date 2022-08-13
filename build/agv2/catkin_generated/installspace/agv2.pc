@@ -1,0 +1,8 @@
+prefix=/home/harshit/agv/install
+
+Name: agv2
+Description: Description of agv2
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

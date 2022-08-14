@@ -157,3 +157,10 @@
 /home/harshit/agv/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/install.dir
 /home/harshit/agv/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir
 /home/harshit/agv/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/install/local.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/install/strip.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/install/local.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/install.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/list_install_components.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/rebuild_cache.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/edit_cache.dir
+/home/harshit/agv/build/four_bot/CMakeFiles/test.dir

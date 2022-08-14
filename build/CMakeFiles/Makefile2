@@ -58,6 +58,7 @@ all: agv2/all
 all: turtlebot3_simulations/turtlebot3_simulations/all
 all: turtlebot3_simulations/turtlebot3_fake/all
 all: turtlebot3_simulations/turtlebot3_gazebo/all
+all: four_bot/all
 
 .PHONY : all
 
@@ -67,6 +68,7 @@ preinstall: agv2/preinstall
 preinstall: turtlebot3_simulations/turtlebot3_simulations/preinstall
 preinstall: turtlebot3_simulations/turtlebot3_fake/preinstall
 preinstall: turtlebot3_simulations/turtlebot3_gazebo/preinstall
+preinstall: four_bot/preinstall
 
 .PHONY : preinstall
 
@@ -81,6 +83,7 @@ clean: agv2/clean
 clean: turtlebot3_simulations/turtlebot3_simulations/clean
 clean: turtlebot3_simulations/turtlebot3_fake/clean
 clean: turtlebot3_simulations/turtlebot3_gazebo/clean
+clean: four_bot/clean
 
 .PHONY : clean
 
@@ -131,6 +134,24 @@ agv2/clean: agv2/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 agv2/clean: agv2/CMakeFiles/publisher_node.dir/clean
 
 .PHONY : agv2/clean
+
+#=============================================================================
+# Directory level rules for directory four_bot
+
+# Recursive "all" directory target.
+four_bot/all:
+
+.PHONY : four_bot/all
+
+# Recursive "preinstall" directory target.
+four_bot/preinstall:
+
+.PHONY : four_bot/preinstall
+
+# Recursive "clean" directory target.
+four_bot/clean:
+
+.PHONY : four_bot/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
